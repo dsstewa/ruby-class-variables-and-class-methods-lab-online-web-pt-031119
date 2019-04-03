@@ -13,17 +13,19 @@ class Song
     @genre=genre
     @@count += 1
     include_artist
+  
     
-    
-      
-    
-    ARTIST.include? artist ? : ARTIST << artist
+    #ARTIST.include? artist ? : ARTIST << artist
     binding.pry
    end
   
   
   def include_artist
-    
+    if ARTIST.include? artist
+    return
+    else
+    ARTIST << artist
+  end
     
   end
   
