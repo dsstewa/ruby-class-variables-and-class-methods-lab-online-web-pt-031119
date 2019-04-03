@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   @@count = 0
-  ARTIST = []
+  @@artists = []
   GENRE = []
   
   attr_reader :name, :artist, :genre
@@ -18,10 +18,10 @@ class Song
   
   
   def include_artist
-    if ARTIST.include? artist
+    if @@artists.include? artist
     return
     else
-    ARTIST << artist
+    @@artists << artist
   end
  end
    def include_genre
