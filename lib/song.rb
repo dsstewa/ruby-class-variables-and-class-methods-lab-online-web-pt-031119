@@ -27,7 +27,9 @@ def self.artists
  @@artists.uniq
 end
  
- 
+ def genre_count
+   binding.pry
+ end
  
  def genre_count
   binding.pry
