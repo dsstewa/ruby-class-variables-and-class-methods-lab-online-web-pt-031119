@@ -35,6 +35,7 @@ end
      else
        hash[genre] = 1
      end
+   end
      hash
  end
  
