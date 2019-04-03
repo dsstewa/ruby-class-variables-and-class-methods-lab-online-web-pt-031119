@@ -15,11 +15,7 @@ class Song
     @@count
   end
   
-  def genre
-    
-   # binding.pry
-    
-  end
+  
   
   
   
