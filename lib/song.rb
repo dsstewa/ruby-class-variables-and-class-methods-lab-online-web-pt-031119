@@ -4,7 +4,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genre = []
-  
+   
   attr_reader :name, :artist, :genre
   
   def initialize(name, artist, genre)
@@ -15,15 +15,14 @@ class Song
     include_artist
     include_genre
    end
-  
 
   def include_artist
     if @@artists.include? artist
-    return
+     return
     else
     @@artists << artist
-    binding.pry
   end
+  binding.pry
  end
 
    def include_genre
