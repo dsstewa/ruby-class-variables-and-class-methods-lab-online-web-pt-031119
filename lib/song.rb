@@ -14,7 +14,7 @@ class Song
     @@count += 1
     include_artist
     
-    if ARTIST.include? artist
+    
       
     
     ARTIST.include? artist ? : ARTIST << artist
