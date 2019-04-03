@@ -22,9 +22,10 @@ class Song
     return
     else
     @@artists << artist
+    binding.pry
   end
  end
- binding.pry
+
    def include_genre
     if GENRE.include? genre
       return
