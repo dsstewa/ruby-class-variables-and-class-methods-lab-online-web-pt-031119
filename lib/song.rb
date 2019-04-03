@@ -17,7 +17,7 @@ class Song
   
   def genre
     
-    binding.pry
+   # binding.pry
     
   end
   
