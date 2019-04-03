@@ -3,7 +3,7 @@ require 'pry'
 class Song
   @@count = 0
   @@artists = []
-  @@genre = []
+  @@genres = []
    
   attr_reader :name, :artist, :genre
   
@@ -22,15 +22,14 @@ class Song
     else
     @@artists << artist
   end
-  binding.pry
  end
 
-   def include_genre
-    if GENRE.include? genre
-      return
-      else
-    GENRE << genre
-    end
+  def include_genre
+    if @@genres.include? genre
+       return
+    else
+    @@genres << genre
+     end
   end
   
   def self.count
@@ -38,12 +37,12 @@ class Song
   end
   
 def self.genres
-  GRNRE 
+  @@genres
   
  end
 
 def self.artists
- ARTIST
+ @@artists
  end
   
 
