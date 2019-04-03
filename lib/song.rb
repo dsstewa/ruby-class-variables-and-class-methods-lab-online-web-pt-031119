@@ -36,12 +36,12 @@ class Song
     @@count
   end
   
-def self.genre
+def self.genres
   GRNRE 
   
  end
 
-def self.artist
+def self.artists
  ARTIST
  end
   
