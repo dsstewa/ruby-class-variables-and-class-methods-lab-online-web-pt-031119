@@ -26,14 +26,10 @@ class Song
    
    def include_genre
     if GENRE.include? genre
-    return
-    else
+      return
+      else
     GENRE << genre
-   
-   end
-
-   
-    
+    end
   end
   
   def self.count
@@ -43,13 +39,12 @@ class Song
 def self.genre
   GRNRE 
   
-end
+ end
 
 def self.artist
  ARTIST
  end
   
-  
-  
+
   
 end
