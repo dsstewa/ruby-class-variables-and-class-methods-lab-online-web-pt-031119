@@ -12,8 +12,7 @@ class Song
     @artist=artist
     @genre=genre
     @@count += 1
-    include_artist
-    include_genre
+   
    end
 
   def include_artist
