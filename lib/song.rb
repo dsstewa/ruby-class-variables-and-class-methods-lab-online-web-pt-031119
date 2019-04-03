@@ -23,7 +23,7 @@ class Song
     else
     ARTIST << artist
   end
-   
+ end
    def include_genre
     if GENRE.include? genre
       return
@@ -46,5 +46,4 @@ def self.artist
  end
   
 
-  
 end
