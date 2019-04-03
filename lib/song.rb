@@ -2,6 +2,9 @@ require 'pry'
 
 class Song
   @@count = 0
+  ARTIST = []
+  GENRE = []
+  
   attr_reader :name, :artist, :genre
   
   def initialize(name, artist, genre)
@@ -9,6 +12,8 @@ class Song
     @artist=artist
     @genre=genre
     @@count += 1
+    ARTIST.include?(artist) ? : ARTIST << artist
+    binding.pry
    end
   
   def self.count
