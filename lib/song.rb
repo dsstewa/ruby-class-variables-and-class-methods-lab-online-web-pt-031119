@@ -12,12 +12,20 @@ class Song
     @artist=artist
     @genre=genre
     @@count += 1
+    include_artist
     
-    if 
+    if ARTIST.include? artist
+      
     
     ARTIST.include? artist ? : ARTIST << artist
     binding.pry
    end
+  
+  
+  def include_artist
+    
+    
+  end
   
   def self.count
     @@count
