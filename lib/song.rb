@@ -16,7 +16,7 @@ class Song
     include_genre
    end
   
-  
+
   def include_artist
     if @@artists.include? artist
     return
