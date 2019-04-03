@@ -44,7 +44,7 @@ def self.genres
 def self.artists
  @@artists
  end
-  
+ binding.pry 
 def genre_count
   binding.pry
 end
