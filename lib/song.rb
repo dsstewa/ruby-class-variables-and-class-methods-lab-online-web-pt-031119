@@ -4,9 +4,9 @@ class Song
   @@count = 0
   attr_reader :name, :artist, :genre
   
-  def initialize(name, artist, genre)
+  def initialize(name, artist, genre2)
     @name=name
-    @artist=artist
+    genre(2)
     
      @@count += 1
    end
@@ -16,6 +16,7 @@ class Song
   end
   
   def genre
+    
     binding.pry
     
   end
