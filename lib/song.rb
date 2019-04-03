@@ -17,11 +17,11 @@ class Song
    end
 
   def include_artist
-    if @@artists.include? artist
-     return
-    else
+   # if @@artists.include? artist
+    # return
+   # else
     @@artists << artist
-  end
+  #end
  end
 
   def include_genre
