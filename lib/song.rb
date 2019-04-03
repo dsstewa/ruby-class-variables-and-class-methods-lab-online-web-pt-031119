@@ -31,9 +31,7 @@ end
    binding.pry
  end
  
- def genre_count
-  
-end
+
 
 
 
