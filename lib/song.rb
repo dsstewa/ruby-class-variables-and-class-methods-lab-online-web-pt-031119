@@ -15,7 +15,7 @@ class Song
     @@count
   end
   
-  def @genre=(genre)
+  def genre
     binding.pry
     
   end
